@@ -1,0 +1,45 @@
+/*页尾*/
+
+#rump .rump_top{
+	background: #f2f2f2;
+	border-top: 5px solid #ff6700;
+	text-align: center;
+	height: 94px;
+	/*line-height: 95px;*/
+}
+#rump .rump_top img{
+	margin:21px 47px;
+}
+#rump .rump_center{
+	overflow: hidden;
+	padding:35px 0px 35px 300px;
+}
+#rump .rump_center img{
+	float: left;
+	margin: 30px 0px 0px 30px;
+}
+#rump .rump_center dl{
+	float: left;
+	width: 155px;
+	text-align: center;
+
+}
+#rump .rump_center dd{
+	color: #000;
+		font-weight: bold;
+	font-size: 16px;
+}
+#rump .rump_center dt{
+	color: #5d5d5d;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+#rump .rump_bottom p{
+	text-align: center;
+	font-size: 12px;
+	margin-top: 15px;
+}
+.last{
+	margin-bottom: 60px;
+}

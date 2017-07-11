@@ -1,0 +1,67 @@
+/*分类导航及轮播*/
+
+#nav{
+	width: 200px;
+	position: relative;
+	float: left;
+	background: #f3f3f3;
+	height: 430px;
+}
+#nav li{
+	
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+#nav .index100{
+	padding-left:20px;
+	width: 179px;
+	z-index: 100;
+}
+#nav div{
+	position: absolute;
+	top: 0px;
+	left: 199px;
+	min-height: 436px;
+	width: 580px;
+	padding: 15px 70px 30px 40px;
+	border:1px solid #ff6701;
+	display: none;
+	background: #fff;
+	z-index: 10;
+}
+#nav div p{
+	margin-bottom: 20px;
+}
+#nav div dt{
+	color: #ff6701;
+	border-bottom: 2px solid #e3e3e3;
+	margin-bottom: 5px;
+	margin-top: 5px;
+
+}
+
+#carousel{
+	width: 1000px;
+	float: right;
+}
+
+/*.carousel_index{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	background: #ccc;
+	text-align: center;
+	line-height: 30px;
+}*/
+/*鼠标移入样式*/
+.mouse{
+	background: #fff;
+	color: #ff6701;
+	border: 1px solid #ff6701;
+	border-right: 0px;
+	position: absolute;
+}

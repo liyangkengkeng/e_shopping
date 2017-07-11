@@ -1,0 +1,131 @@
+#wrap_up {
+    width: 100%;
+    background: #000;
+}
+
+#wrap_up p {
+    line-height: 20px;
+    font-size: 12px;
+    color: #fff;
+    margin-left: 265px;
+}
+
+#land a {
+    color: #ff6700;
+    text-decoration: none;
+}
+
+#wrap_up div {
+    height: 20px;
+    position: relative;
+}
+
+#wrap_up img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.greet{
+    padding: 22px 0px 23px 285px;
+    box-sizing: border-box;
+}
+.greet span{
+    font-size: 30px;
+    color: #666;
+}
+
+.back{
+    background: url(../imags/05-02.jpg);
+    height: 500px;
+    background-position: -320px 0px;
+    position: relative;
+}
+
+.back_code{
+    width: 352px;
+    height: 370px;
+    background: #fff;
+    position: absolute;
+    right: 200px;
+    top: 65px;
+    text-align: center;
+}
+.battn span{
+    display: inline-block;
+    width: 174px;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    border-bottom: 1px solid #f6f6f6;
+    font-size: 20px;
+}
+.back .f6f6{
+    color: #f6f6f6;
+    width: 0px;
+}
+.back img{
+    margin: 55px 10px 30px 0px;
+}
+
+.back_pasw{
+    padding-top: 40px;
+    text-align: center;
+    position: relative;
+}
+.w_h{
+    width: 218px;
+    height: 38px;
+    border:1px solid #bfbfbf;
+    margin-bottom: 20px;
+    padding: 0px 35px;
+}
+.back_pasw p{
+    text-align: right;
+    width: 290px;
+    margin: 0px auto;
+}
+.back_pasw p span{
+    float: left;
+}
+.submit{
+    width: 290px;
+    height: 40px;
+    color: #fff;
+    background: #ff6700;
+    font-size: 20px;
+    /*tetter-spacing:10px;*/
+    border: 0px;
+    margin:25px 0px; 
+}
+.back .enroll{
+    width: 352px;
+    height: 44px;
+    border-top: 2px solid #ccc;
+    text-align: center;
+    line-height: 44px;
+    background: #fcfcfc;
+}
+.back .enroll a{
+color: #ff6700;
+    font-size: 20px;
+}
+.back_pasw i{
+    height: 38px;
+    width: 30px;
+    text-align: center;
+    line-height: 38px;
+    font-size: 20px;
+    background: #f3f3f3;
+    color: #d2d2d2;
+    position: absolute;
+    left: 32px;
+    top: 41px;
+}
+.back_pasw .password{
+    top:101px;
+}
+.back_pasw .del{
+    left:290px;
+    background: 0px;
+    cursor: pointer;
+}

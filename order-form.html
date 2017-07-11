@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>订单页面</title>
+    <!-- 字体库 -->
+    <link rel="stylesheet" type="text/css" href="styles/fontAwesome/css/font-awesome.min.css">
+    <!-- 公用css -->
+    <link rel="stylesheet" type="text/css" href="styles/common.css">
+    <!-- 页尾模板 -->
+    <link rel="stylesheet" type="text/css" href="styles/mould_css/rump_mould.css">
+    <!-- 本页面css -->
+    <link rel="stylesheet" type="text/css" href="styles/order-form.css">
+    <!-- jq库 -->
+    <script type="text/javascript" src='scripts/jquery.min.js'></script>
+    <!-- 本页面js -->
+    <script type="text/javascript" src='scripts/order-form.js'></script>
+</head>
+
+<body>
+    <!-- 页头 -->
+    <div id="wrap_up">
+        <div class="width1200">
+            <p class="left">legochine.cn</p>
+            <p id="land" class="right">欢迎光临<a href="#">乐购</a>，请 <a href="land-page.html">登陆</a>\<a href="enroll.html">注册</a></p>
+            <p class="logo">
+                <img src="imags/logo.jpg">
+                <span>结算中心</span>
+            </p>
+        </div>
+    </div>
+    <p class="width1200 search">
+        <input type="text" name="search" placeholder="创意图书"><span></span>
+    </p>
+    <!-- 订单信息 -->
+    <div class="width1200 the_order">
+        <p class="size18">填写并核对订单信息</p>
+        <p class="consignee main_css">收货人信息<a href="#"><span>新增收货地址</span></a>
+        </p>
+        <div class="url">
+            <p class="shipping_address">
+                <span class="detailed detailed_click">运送&nbsp;&nbsp; &nbsp; 四川<i class="fa fa-check"></i></span>
+                <span>成都市&nbsp;&nbsp; &nbsp;  高新区 &nbsp;&nbsp; &nbsp;天府新谷11号楼1101</span>
+            </p>
+            <p>更多收货地址：</p>
+            <p class="shipping_address">
+                <span class="detailed">运送&nbsp;&nbsp; &nbsp; 四川<i class="fa fa-check"></i></span>
+                <span>成都市&nbsp;&nbsp; &nbsp;  高新区 &nbsp;&nbsp; &nbsp;天府新谷11号楼1101</span>
+            </p>
+            <p class="shipping_address">
+                <span class="detailed">运送&nbsp;&nbsp; &nbsp; 四川<i class="fa fa-check"></i></span>
+                <span>成都市&nbsp;&nbsp; &nbsp;  高新区 &nbsp;&nbsp; &nbsp;天府新谷11号楼1101</span>
+            </p>
+            <p class="shipping_address">
+                <span class="detailed">运送&nbsp;&nbsp; &nbsp; 四川<i class="fa fa-check"></i></span>
+                <span>成都市&nbsp;&nbsp; &nbsp;  高新区 &nbsp;&nbsp; &nbsp;天府新谷11号楼1101</span>
+            </p>
+        </div>
+        <div class="money">
+            <p class="main_css">支付方式</p>
+            <p class="pay shipping_address">
+                <span class="detailed detailed_click">货到付款<i class="fa fa-check"></i></span>
+                <span class="detailed">微信支付<i class="fa fa-check"></i></span>
+                <span class="detailed">信用卡<i class="fa fa-check"></i></span>
+                <span class="detailed">银行卡<i class="fa fa-check"></i></span>
+                <span>更多>></span>
+            </p>
+        </div>
+        <p class="consignee main_css">送货清单<a href="shpping cart.html"><span>返回购物车修改</span></a><a href="#"><span>价格说明</span></a>
+        </p>
+        <div class="distrbution">
+            <div class="left distrbution_left">
+                <p>配送方式：</p>
+                <span class="sf detailed detailed_click">顺丰快递<i class="fa fa-check"></i></span>
+                <span class="sf detailed">圆通快递<i class="fa fa-check"></i></span>
+                <p><span class="b6b6">付款方式：</span>现金<a href="#"><span class="right blue">修改</span></a></p>
+                <p><span class="b6b6">配送时间：</span>预计8与30日12：:0-16:00送达<a href="#"><span class="right blue">修改</span></a></p>
+            </div>
+            <div class="left distrbution_right">
+                <img src="imags/index08_05.jpg">
+                <p class="left">
+                    <span class="b6b6">从你的全世界路过</span>
+                    <span class="main_color">41.00</span>
+                    <span>1</span>
+                    <span>有货</span>
+                </p>
+            </div>
+        </div>
+        <div class="invoice">
+            <p>发票信息：</p>
+            <p><span>普通发票（电子）</span><span>个人</span><span>明细</span><span class="blue">修改</span></p>
+        </div>
+        <div class="cost_detail">
+            <p><span class="main_color">1</span class='b6b6'> 件商品</p>
+            <p class="b6b6">商品总金额 <span class="price main_color">41.00</span></p>
+            <p class="b6b6">运费：<span class="freight main_color">6.00</span></p>
+            <p class="all_money">应付总金额： <span class="all main_color"></span></p>
+        </div>
+        <div class="submit">
+            <span>配送至 </span>
+            <span class="border"> 成都市高新区三环内天府新谷11号</span>
+            <span>收货人 </span>
+            <span class="border"> 136******88</span>
+            <span class="button">提交订单</span>
+        </div>
+    </div>
+    <!-- 蒙层效果 -->
+    <div class="cover">
+        <div class="prompt">
+            <p class="size16 first_line">确认去付款<i class="fa fa-close shut_down"></i></p>
+            <p class="warning"><span>!</span>是否确认去提交订单？</p>
+            <p class="auto"><span class="cancel">取消</span><span class="confirm">确认</span></p>
+        </div>
+    </div>
+    <!-- 页尾广告 -->
+    <div class="width1200" id="after_ad">
+        <img src="imags/广告.jpg">
+    </div>
+    <!-- 尾部 -->
+    <div id="rump">
+        <div class="rump_top">
+            <img src="imags/222_11.png">
+            <img src="imags/222_13.png">
+            <img src="imags/222_15.png">
+            <img src="imags/222_17.png">
+        </div>
+        <div class="rump_center width1200">
+            <dl>
+                <a href="#">
+                    <dd>购物指南</dd>
+                </a>
+                <a href="#">
+                    <dt>购物流程</dt>
+                </a>
+                <a href="#">
+                    <dt>发票制度</dt>
+                </a>
+                <a href="#">
+                    <dt>账户管理</dt>
+                </a>
+                <a href="#">
+                    <dt>会员优惠</dt>
+                </a>
+            </dl>
+            <dl>
+                <a href="#">
+                    <dd>支付方式</dd>
+                </a>
+                <a href="#">
+                    <dt>货到付款</dt>
+                </a>
+                <a href="#">
+                    <dt>网上支付</dt>
+                </a>
+                <a href="#">
+                    <dt>礼品卡支付</dt>
+                </a>
+                <a href="#">
+                    <dt>银行卡支付</dt>
+                </a>
+            </dl>
+            <dl>
+                <a href="#">
+                    <dd>订单服务</dd>
+                </a>
+                <a href="#">
+                    <dt>订单配送查询</dt>
+                </a>
+                <a href="#">
+                    <dt>订单状态说明</dt>
+                </a>
+                <a href="#">
+                    <dt>自动取消订单</dt>
+                </a>
+                <a href="#">
+                    <dt>自动修改订单</dt>
+                </a>
+            </dl>
+            <dl>
+                <a href="#">
+                    <dd>退换货</dd>
+                </a>
+                <a href="#">
+                    <dt>退换货政策</dt>
+                </a>
+                <a href="#">
+                    <dt>自动申请退换货</dt>
+                </a>
+                <a href="#">
+                    <dt>退换货进度查询</dt>
+                </a>
+                <a href="#">
+                    <dt>退款方式和时间</dt>
+                </a>
+            </dl>
+            <dl>
+                <a href="#">
+                    <dd>商家服务</dd>
+                </a>
+                <a href="#">
+                    <dt>商家中心</dt>
+                </a>
+                <a href="#">
+                    <dt>运营服务</dt>
+                </a>
+                <a href="#">
+                    <dt>加入唯品会</dt>
+                </a>
+            </dl>
+            <img src="imags/logo_00.png">
+        </div>
+        <div class="clear"></div>
+        <div class="rump_bottom width1200">
+            <p>
+                <a href="#">公司简介</a>&nbsp;&nbsp;&nbsp;&nbsp;|
+                <a href="#">Investor Relations</a>&nbsp;&nbsp;&nbsp;&nbsp;|
+                <a href="#">网站联盟</a>&nbsp;&nbsp;&nbsp;&nbsp;|
+                <a href="#">乐购招商</a>&nbsp;&nbsp;&nbsp;&nbsp;|
+                <a href="#">机构销售</a>&nbsp;&nbsp;&nbsp;&nbsp;|
+                <a href="#">手机乐购</a>&nbsp;&nbsp;&nbsp;&nbsp;|
+                <a href="#">官方Blog</a>&nbsp;&nbsp;&nbsp;&nbsp;|
+                <a href="#">热词搜索</a>
+            </p>
+            <p class="last">
+                Copyright (C) 乐购网 2004-2016. All Rights Reserved
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

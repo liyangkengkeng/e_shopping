@@ -1,0 +1,317 @@
+#wrap_up {
+    width: 100%;
+    background: #000;
+}
+
+#wrap_up p {
+    line-height: 20px;
+    font-size: 12px;
+    color: #fff;
+    margin-left: 265px;
+}
+
+#land a {
+    color: #ff6700;
+    text-decoration: none;
+}
+
+#wrap_up div {
+    height: 20px;
+    position: relative;
+}
+
+#wrap_up img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.search {
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.search input {
+    width: 430px;
+    height: 34px;
+    line-height: 34px;
+    border: 2px solid #ff6700;
+    outline: none;
+    padding-left: 10px;
+}
+
+.search span {
+    display: inline-block;
+    cursor: pointer;
+    width: 50px;
+    height: 34px;
+    border: 2px solid #ff6700;
+    background: url(../imags/bgicon.png) no-repeat;
+    background-position: 0px -2px;
+    float: right;
+}
+
+.ship_address {
+    text-align: right;
+}
+
+.ship_address select {
+    width: 100px;
+}
+
+
+/*全部商品*/
+
+.table_name {
+    font-size: 24px;
+    color: #ff6700;
+    margin-top: 20px;
+}
+
+.whold_goods table {
+    width: 1200px;
+}
+
+.whold_goods th,
+.whold_goods td {
+    border: 0px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.whold_goods .tr-1 {
+    height: 60px;
+    background: #f2f2f2;
+}
+
+.whold_goods .border_bottom5{
+	border-bottom: 5px solid #dfdfdf;
+	height: 20px;
+}
+.whold_goods tr p {
+    border-bottom: 2px solid #dfdfdf;
+}
+
+.whold_goods .wares {
+    width: 380px;
+}
+
+.whold_goods .mono,
+.whold_goods .total,
+.whold_goods .quan {
+    width: 130px;
+    text-align: center;
+}
+.whold_goods img{
+	margin: 20px;
+}
+.whold_goods .checkbox{
+	float: left;
+	margin: 0px 10px 0px 20px;
+	width: 16px;
+	height: 16px;
+}
+.th-one{
+	width: 260px;
+}
+.del{
+	cursor: pointer;
+}
+/*结算栏*/
+.balance{
+	height: 58px;
+	line-height: 60px;
+	border: 1px solid #ccc;
+	margin-top: 35px;
+	width: 1048px;
+}
+.balance p{
+	float: left;
+}
+.balance .in_all,.balance .alre{
+	float: right;
+}
+
+.whole{
+	margin-left: 20px;
+	font-size: 16px;
+}
+.whole input{
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+}
+.whole span{
+	margin-left:40px; 
+	font-size: 16px;
+	cursor: pointer;
+}
+.alre,.in_all{
+	margin-right: 50px;
+	font-size: 16px;
+}
+.alre span,.in_all span{
+	font-size: 16px;
+}
+
+.balance_button{
+	margin-top: 35px;
+	height: 60px;
+	width: 150px;
+	background: #ff6700;
+	color: #fff;
+	line-height: 60px;
+	text-align: center;
+	font-size: 30px;
+	cursor: pointer;
+}
+/*猜你喜欢*/
+#rebate .top{
+	width: 100%;
+	border-bottom:5px solid #ff6700;
+	margin-top: 25px;
+}
+#rebate .title{
+	font-size: 24px;
+	color: #fff;
+	background: #ff6700;
+	width: 220px;
+	height:48px;
+	line-height: 48px;
+	padding-left: 20px;
+}
+
+#rebate .rebate_bottom div{
+    width: 210px;
+    float: left;
+    box-sizing: border-box;
+	padding: 5px 0px;
+	margin-right: 37px;
+}
+#rebate .rebate_bottom .right0{
+	margin-right: 0px;
+}
+
+#rebate .rebate_bottom div:hover{
+     background: #f2f2f2;   
+}
+#rebate .rebate_bottom .width150{
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+    display: block;
+}
+#rebate .rebate_bottom p{
+	margin-left: 10px;
+}
+i{
+    color:#ff6700;
+}
+
+
+/*尾部广告*/
+#after_ad{
+	margin-top: 40px;
+	font-size: 0px;
+}
+#after_ad div{
+	width: 200px;
+	float: left;
+	margin-bottom: 25px;
+}
+#after_ad div span{
+	float: left;
+}
+#after_ad .wane{
+	display: inline-block;
+	border: 1px solid red;
+	border-radius: 14px;
+	background: red;
+	color: #fff;
+}
+#after_ad div img{
+	width: 100px;
+}
+#after_ad p img{
+	width: 100%;
+	height: 90px;
+	display: block;
+}
+
+/*蒙层*/
+.cover{
+    background: rgba(0,0,0,.5);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1000;
+    display: none;
+}
+.prompt{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    width: 470px;
+    height: 275px;
+    z-index: 1001;
+    background: #fff;
+}
+
+.first_line{
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 10px;
+    background: #e6e6e6;
+    margin-bottom: 40px;
+}
+.prompt i{
+    float: right;
+    color: #c6c6c6;
+    line-height: 40px;
+    font-size: 24px;
+}
+.warning{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px; 
+}
+.warning span{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #f01111;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    line-height: 70px;
+    margin-right: 20px;
+
+}
+
+.cancel{
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    background: #e6e6e6;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.confirm{
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    background: #ff6700;
+    color: #fff;
+    cursor: pointer;
+}

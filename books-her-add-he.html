@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>图书她和他</title>
+    <!-- 字体库 -->
+    <link rel="stylesheet" type="text/css" href="styles/fontAwesome/css/font-awesome.min.css">
+    <!-- 共用类 -->
+    <link rel="stylesheet" type="text/css" href="styles/common.css">
+    <!-- 页头模板 -->
+    <link rel="stylesheet" type="text/css" href="styles/mould_css/header_mould.css">
+    <!-- 轮播、分类导航模板css -->
+    <link rel="stylesheet" type="text/css" href="styles/mould_css/nav_carousel_mould.css">
+    <!-- 页尾模板css -->
+    <link rel="stylesheet" type="text/css" href="styles/mould_css/rump_mould.css">
+    <!-- 本页面css -->
+    <link rel="stylesheet" type="text/css" href="styles/books-her-add-he.css">
+    <!-- 放大镜插件css -->
+    <link rel="stylesheet" type="text/css" href="styles/zoomEfect.css">
+    <!-- jq库 -->
+    <script type="text/javascript" src='scripts/jquery.min.js'></script>
+    <!-- 放大镜插件 -->
+    <script src="scripts/plug-in board_js/zoomEfect.js" type="text/javascript"></script>
+    <!-- 本页面js -->
+    <script type="text/javascript" src='scripts/books-her-add-he.js'></script>
+</head>
+
+<body>
+    <!-- 页头及分类 -->
+    <div id="wrap_up">
+       <p id="land" class="width1200">欢迎光临<a href="#">乐购</a>，请 <a href="land-page.html">登陆</a>\<a href="enroll.html">注册</a></p>
+    </div>
+    <div class="width1200" id="header_nav">
+        <img src="imags/LOGO_02.jpg">
+        <input type="text" name="search" placeholder="创意图书">
+        <p>
+            <a href="shpping cart.html"><span class="shop">购物车</span></a><a href="order-form.html"><span class="order">我的订单</span></a>
+        </p>
+        <ul>
+            <li>图书</li>
+            <li>电子书</li>
+            <li>原创文学</li>
+            <li>服装</li>
+            <li>运动户外</li>
+            <li>孕婴童装</li>
+            <li>家具</li>
+            <li>创意文具</li>
+            <li>地方特产</li>
+            <li>海外购</li>
+            <li>电器城</li>
+        </ul>
+        <span class="index11">全部商品分类 &nbsp;&nbsp;<i class="fa fa-angle-up"></i></span>
+    </div>
+    <!-- 分类 -->
+    <div class="width1200">
+        <div id="nav" class='none'>
+            <ul>
+                <li>
+                    <p class="index100">图书、电子书、童书</p>
+                    <div>
+                        <p>
+                            <span>图书馆>></span>
+                            <span>儿童书馆>></span>
+                            <span>电子书馆>></span>
+                        </p>
+                        <dl>
+                            <dt>文艺</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>人文社科</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星&nbsp;&nbsp;历史&nbsp;&nbsp;政治军事&nbsp;&nbsp;文化&nbsp;&nbsp;明星</dd>
+                            <dt>管理</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>励志</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>教育</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>科技</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>生活</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>进口书</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                        </dl>
+                    </div>
+                </li>
+                <li>
+                    <p class="index100">创意文具</p>
+                    <div>
+                        <p>
+                            <span>创意文具>></span>
+                            <span>创意文具>></span>
+                            <span>创意文具>></span>
+                        </p>
+                        <dl>
+                            <dt>文艺</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>人文社科</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星&nbsp;&nbsp;历史&nbsp;&nbsp;政治军事&nbsp;&nbsp;文化&nbsp;&nbsp;明星</dd>
+                            <dt>管理</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>励志</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>教育</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>科技</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>生活</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>进口书</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                        </dl>
+                    </div>
+                </li>
+                <li>
+                    <p class="index100">服饰、内</p>
+                    <div>
+                        <p>
+                            <span>服饰、内衣>></span>
+                            <span>服饰、内衣>></span>
+                            <span>服饰、内衣>></span>
+                        </p>
+                        <dl>
+                            <dt>文艺</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>人文社科</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星&nbsp;&nbsp;历史&nbsp;&nbsp;政治军事&nbsp;&nbsp;文化&nbsp;&nbsp;明星</dd>
+                            <dt>管理</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>励志</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>教育</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>科技</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>生活</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>进口书</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                        </dl>
+                    </div>
+                </li>
+                <li>
+                    <p class="index100">鞋靴、箱包</p>
+                    <div>
+                        <p>
+                            <span>鞋靴、箱包>></span>
+                            <span>鞋靴、箱包>></span>
+                            <span>鞋靴、箱包>></span>
+                        </p>
+                        <dl>
+                            <dt>文艺</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>人文社科</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星&nbsp;&nbsp;历史&nbsp;&nbsp;政治军事&nbsp;&nbsp;文化&nbsp;&nbsp;明星</dd>
+                            <dt>管理</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>励志</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>教育</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>科技</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>生活</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>进口书</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                        </dl>
+                    </div>
+                </li>
+                <li>
+                    <p class="index100">运动户外</p>
+                    <div>
+                        <p>
+                            <span>运动户外>></span>
+                            <span>运动户外>></span>
+                            <span>运动户外>></span>
+                        </p>
+                        <dl>
+                            <dt>文艺</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>人文社科</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星&nbsp;&nbsp;历史&nbsp;&nbsp;政治军事&nbsp;&nbsp;文化&nbsp;&nbsp;明星</dd>
+                            <dt>管理</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>励志</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>教育</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>科技</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>生活</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>进口书</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                        </dl>
+                    </div>
+                </li>
+                <li>
+                    <p class="index100">孕、婴、童</p>
+                    <div>
+                        <p>
+                            <span>孕、婴、童>></span>
+                            <span>孕、婴、童>></span>
+                            <span>孕、婴、童>></span>
+                        </p>
+                        <dl>
+                            <dt>文艺</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>人文社科</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星&nbsp;&nbsp;历史&nbsp;&nbsp;政治军事&nbsp;&nbsp;文化&nbsp;&nbsp;明星</dd>
+                            <dt>管理</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>励志</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>教育</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>科技</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>生活</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>进口书</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                        </dl>
+                    </div>
+                </li>
+                <li>
+                    <p class="index100">家局、家纺、汽车</p>
+                    <div>
+                        <p>
+                            <span>家局、家纺、汽车>></span>
+                            <span>家局、家纺、汽车>></span>
+                            <span>家局、家纺、汽车>></span>
+                        </p>
+                        <dl>
+                            <dt>文艺</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>人文社科</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星&nbsp;&nbsp;历史&nbsp;&nbsp;政治军事&nbsp;&nbsp;文化&nbsp;&nbsp;明星</dd>
+                            <dt>管理</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>励志</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>教育</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>科技</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>生活</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>进口书</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                        </dl>
+                    </div>
+                </li>
+                <li>
+                    <p class="index100">家具、家装、康体</p>
+                    <div>
+                        <p>
+                            <span>家具、家装、康体>></span>
+                            <span>家具、家装、康体>></span>
+                            <span>家具、家装、康体>></span>
+                        </p>
+                        <dl>
+                            <dt>文艺</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>人文社科</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星&nbsp;&nbsp;历史&nbsp;&nbsp;政治军事&nbsp;&nbsp;文化&nbsp;&nbsp;明星</dd>
+                            <dt>管理</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>励志</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>教育</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>科技</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>生活</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>进口书</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                        </dl>
+                    </div>
+                </li>
+                <li>
+                    <p class="index100">美妆、个人护理</p>
+                    <div>
+                        <p>
+                            <span>美妆、个人护理、成人>></span>
+                            <span>美妆、个人护理、成人>></span>
+                            <span>美妆、个人护理、成人>></span>
+                        </p>
+                        <dl>
+                            <dt>文艺</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>人文社科</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星&nbsp;&nbsp;历史&nbsp;&nbsp;政治军事&nbsp;&nbsp;文化&nbsp;&nbsp;明星</dd>
+                            <dt>管理</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>励志</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>教育</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>科技</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>生活</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>进口书</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                        </dl>
+                    </div>
+                </li>
+                <li>
+                    <p class="index100">食品、茶酒、生鲜</p>
+                    <div>
+                        <p>
+                            <span>食品、茶酒、生鲜>></span>
+                            <span>食品、茶酒、生鲜>></span>
+                            <span>食品、茶酒、生鲜>></span>
+                        </p>
+                        <dl>
+                            <dt>文艺</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>人文社科</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星&nbsp;&nbsp;历史&nbsp;&nbsp;政治军事&nbsp;&nbsp;文化&nbsp;&nbsp;明星</dd>
+                            <dt>管理</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>励志</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>教育</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>科技</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>生活</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>进口书</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                        </dl>
+                    </div>
+                </li>
+                <li>
+                    <p class="index100">腕表、珠宝、眼镜</p>
+                    <div>
+                        <p>
+                            <span>腕表、珠宝、眼镜>></span>
+                            <span>腕表、珠宝、眼镜>></span>
+                            <span>腕表、珠宝、眼镜>></span>
+                        </p>
+                        <dl>
+                            <dt>文艺</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>人文社科</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星&nbsp;&nbsp;历史&nbsp;&nbsp;政治军事&nbsp;&nbsp;文化&nbsp;&nbsp;明星</dd>
+                            <dt>管理</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>励志</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>教育</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>科技</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>生活</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>进口书</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                        </dl>
+                    </div>
+                </li>
+                <li>
+                    <p class="index100">手机、数码</p>
+                    <div>
+                        <p>
+                            <span>手机、数码>></span>
+                            <span>手机、数码>></span>
+                            <span>手机、数码>></span>
+                        </p>
+                        <dl>
+                            <dt>文艺</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>人文社科</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星&nbsp;&nbsp;历史&nbsp;&nbsp;政治军事&nbsp;&nbsp;文化&nbsp;&nbsp;明星</dd>
+                            <dt>管理</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>励志</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>教育</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>科技</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>生活</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>进口书</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                        </dl>
+                    </div>
+                </li>
+                <li>
+                    <p class="index100">电脑办公</p>
+                    <div>
+                        <p>
+                            <span>电脑办公>></span>
+                            <span>电脑办公>></span>
+                            <span>电脑办公>></span>
+                        </p>
+                        <dl>
+                            <dt>文艺</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>人文社科</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星&nbsp;&nbsp;历史&nbsp;&nbsp;政治军事&nbsp;&nbsp;文化&nbsp;&nbsp;明星</dd>
+                            <dt>管理</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>励志</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>教育</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>科技</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>生活</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>进口书</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                        </dl>
+                    </div>
+                </li>
+                <li>
+                    <p class="index100">家用电器</p>
+                    <div>
+                        <p>
+                            <span>家用电器>></span>
+                            <span>家用电器>></span>
+                            <span>家用电器>></span>
+                        </p>
+                        <dl>
+                            <dt>文艺</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>人文社科</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星&nbsp;&nbsp;历史&nbsp;&nbsp;政治军事&nbsp;&nbsp;文化&nbsp;&nbsp;明星</dd>
+                            <dt>管理</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>励志</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>教育</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>科技</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>生活</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                            <dt>进口书</dt>
+                            <dd>小说&nbsp;&nbsp;文学&nbsp;&nbsp;传记&nbsp;&nbsp;青春&nbsp;&nbsp;动漫&nbsp;&nbsp;艺术&nbsp;&nbsp;摄影&nbsp;&nbsp;明星</dd>
+                        </dl>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 正文 -->
+    <div id="bundle">
+        <div id="text" class="width1200">
+            <p class="url"><a href="#"><span>图书</span></a> &nbsp;> <a href="#">小说</a> > <a href="#">情感/家庭/婚姻</a> > <a href="#">博集天卷</a> > <a href="#">她和你</a></p>
+            <div class="present left">
+                <div id="showbox">
+                    <img src="imags/书籍/qq.jpg" width="960" height="800" />
+                    <img src="imags/书籍/11 (1).jpg" width="720" height="640" />
+                    <img src="imags/书籍/11 (1).png" width="960" height="960" />
+                    <img src="imags/书籍/11 (2).jpg" width="800" height="600" />
+                </div>
+                <!--展示图片盒子 End-->
+                <div id="showsum"></div>
+                <!--展示图片里边-->
+                <!-- 翻页 Start -->
+                <p class="showpage">
+                    <a href="#" id="showlast">
+                        < </a>
+                            <a href="#" id="shownext"> > </a>
+                </p>
+                <p class="auto mar_top20">商品编号：11950959</p>
+            </div>
+            <div class="present_right left width790">
+                <p class="size24 mar_buttom15 black">她和他</p>
+                <p class="red size16 mar_buttom15">《偷影子的人》作者马克 · 李维重磅新作，法国连续60周在榜，销售突破120万册</p>
+                <p class="mar_buttom15">[法] 马克 · 李维 著； 杨怡与 译</p>
+                <div class="back_gray mar_buttom15 mar20">
+                    <p class="mar_buttom15">乐 购 价：<span class="red">￥26.20</span> [6.9折] [定价：
+                        <s>￥38.00]</s>
+                        </span>
+                    </p>
+                    <p class="mar_buttom30">促销信息： <span class="red">满减 每满150.00元， 可减50.00元现金</span> &nbsp;&nbsp;&nbsp;<a href="#" style='color: #a6a6a6'>详情>></a></p>
+                    <p>领&nbsp;&nbsp;&nbsp;&nbsp;卷： <img src=""><img src=""></p>
+                </div>
+                <p class="black">
+                    种类选择： <span class="pack pack_css">平装版<i class="fa fa-check"></i></span><span class="pack">精装版<i class="fa fa-check hide"></i></span>
+                </p>
+                <div class="pos_r left">
+                    <input type="text" class="text" value="1">
+                    <input type="button" class="button" value="+">
+                    <input type="button" class="button button_-" value="-">
+                </div>
+                <a href="#"><p class="append">加入购物车</p></a>
+                <div class="clear"></div>
+                <p>温馨提示： 支持7天无理由退货</p>
+            </div>
+        </div>
+    </div>
+    <!-- 人气单品 -->
+    <div id="human" class="width1200">
+        <div class="top">
+            <p class='title'>人气单品</p>
+        </div>
+        <div class="human_bottom">
+            <div>
+                <a href="#"><img src="imags/书籍/22935553-1_l.jpg" class="width150"></a>
+                <img src="imags/index05_18.jpg">
+                <p>白夜行&nbsp;&nbsp;&nbsp;&nbsp;东野上吾</p>
+                <p><span class="red">推荐：</span><span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i></span></p>
+                <p class="red size20">￥：189&nbsp;&nbsp;&nbsp;&nbsp;<span><s class="size20 gray">￥：58</s></span></p>
+            </div>
+            <div>
+                <a href="#"><img src="imags/书籍/22935553-1_l.jpg" class="width150"></a>
+                <img src="imags/index05_18.jpg">
+                <p>白夜行&nbsp;&nbsp;&nbsp;&nbsp;东野上吾</p>
+                <p><span class="red">推荐：</span><span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i></span></p>
+                <p class="red size20">￥：189&nbsp;&nbsp;&nbsp;&nbsp;<span><s class="size20 gray">￥：58</s></span></p>
+            </div>
+            <div>
+                <a href="#"><img src="imags/书籍/22935553-1_l.jpg" class="width150"></a>
+                <img src="imags/index05_18.jpg">
+                <p>白夜行&nbsp;&nbsp;&nbsp;&nbsp;东野上吾</p>
+                <p><span class="red">推荐：</span><span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i></span></p>
+                <p class="red size20">￥：189&nbsp;&nbsp;&nbsp;&nbsp;<span><s class="size20 gray">￥：58</s></span></p>
+            </div>
+            <div>
+                <a href="#"><img src="imags/书籍/22935553-1_l.jpg" class="width150"></a>
+                <img src="imags/index05_18.jpg">
+                <p>白夜行&nbsp;&nbsp;&nbsp;&nbsp;东野上吾</p>
+                <p><span class="red">推荐：</span><span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i></span></p>
+                <p class="red size20">￥：189&nbsp;&nbsp;&nbsp;&nbsp;<span><s class="size20 gray">￥：58</s></span></p>
+            </div>
+            <div class="right0">
+                <a href="#"><img src="imags/书籍/22935553-1_l.jpg" class="width150"></a>
+                <img src="imags/index05_18.jpg">
+                <p>白夜行&nbsp;&nbsp;&nbsp;&nbsp;东野上吾</p>
+                <p><span class="red">推荐：</span><span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i></span></p>
+                <p class="red size20">￥：189&nbsp;&nbsp;&nbsp;&nbsp;<span><s class="size20 gray">￥：58</s></span></p>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <!-- 评论 -->
+    <div class="width1200">
+        <div id="look" class="left">
+            <p class="size20 title">看了又看</p>
+            <div>
+                <a href="#"><img src="imags/书籍/22935553-1_l.jpg" class="width150"></a>
+                <img src="imags/index05_18.jpg">
+                <p>白夜行&nbsp;&nbsp;&nbsp;&nbsp;东野上吾</p>
+                <p><span class="red">推荐：</span><span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i></span></p>
+                <p class="red size20">￥：189&nbsp;&nbsp;&nbsp;&nbsp;<span><s class="size20 gray">￥：58</s></span></p>
+            </div>
+            <div>
+                <a href="#"><img src="imags/书籍/22935553-1_l.jpg" class="width150"></a>
+                <img src="imags/index05_18.jpg">
+                <p>白夜行&nbsp;&nbsp;&nbsp;&nbsp;东野上吾</p>
+                <p><span class="red">推荐：</span><span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i></span></p>
+                <p class="red size20">￥：189&nbsp;&nbsp;&nbsp;&nbsp;<span><s class="size20 gray">￥：58</s></span></p>
+            </div>
+            <div style="border-bottom: 0px">
+                <a href="#"><img src="imags/书籍/22935553-1_l.jpg" class="width150"></a>
+                <img src="imags/index05_18.jpg">
+                <p>白夜行&nbsp;&nbsp;&nbsp;&nbsp;东野上吾</p>
+                <p><span class="red">推荐：</span><span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i></span></p>
+                <p class="red size20">￥：189&nbsp;&nbsp;&nbsp;&nbsp;<span><s class="size20 gray">￥：58</s></span></p>
+            </div>
+        </div>
+        <div id="discuss" class="left">
+            <div class="assess">
+                <p class="p_css">商品介绍</p>
+                <p>评价<span class="size24">(9999)</span></p>
+            </div>
+            <!-- 评价div -->
+            <div class="assess_div none">
+                <div class="discuss_top">
+                    <div class="data_count">
+                        <p class="high_opinion">
+                            <span class="big">98%</span><span class="size20">好评度</span>
+                        </p>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="discuss_num">
+                        <p class="red">全部评价<span>(9999)</span></p>
+                        <p>好评<span>(888)</span></p>
+                        <p>中评<span>(777)</span></p>
+                        <p>差评<span>(666)</span></p>
+                    </div>
+                </div>
+                <div class="discuss_tail">
+                </div>
+                <div class="discuss_bottom">
+                    <p class="size18">评论区：</p>
+                    <textarea></textarea>
+                    <button class="right">提交</button>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <!-- 商品介绍div -->
+            <div>
+            <div class="present_div">
+                
+                    <div class="div_left">
+                        <p class="chinese">
+                            她
+                            <br>和
+                            <br>他
+                        </p>
+                        <p class="english">
+                            E l l e &nbsp;&nbsp;&#38;&nbsp;&nbsp; l u i
+                        </p>
+                        <canvas id='canvas'>
+                            您的浏览器不支持画布(canvas)功能
+                        </canvas>
+                        <p class="blob">
+                            法国连续
+                            <br>
+                            <span>60周年在榜</span>
+                            <br> 销售突破
+                            <br> 120万册
+                        </p>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="div_right">
+                        <p class="brown">累计销量超过3500万册
+                            <br>49国读者口碑相传</p>
+                        <p>《偷影子的人》作者
+                            <br><span>马克·李维 重磅新书</span></p>
+                        <p><img src="imags/书籍/yeh.jpg"></p>
+                    </div>
+                    <div class="clear"></div>
+                    <p class="media mar_buttom30">媒体评价</p>
+                    <p class="size24 mar_buttom30">奇景位置<span class="bold size24 mar_buttom30">-《费加罗报》</span></p>
+                    <p class="size24 mar_buttom30">奇景位置敬爱分恢复进口的时间长<span class="bold size24 mar_buttom30">-《费加罗报》</span></p>
+                    <p class="size24 mar_buttom30">奇景位置<span class="bold size24 mar_buttom30">-《费加罗报》</span></p>
+                    <div class="author size20">
+                        <img src="imags/t5.jpg"> &nbsp;&nbsp;&nbsp;&nbsp; 他叫米亚，来自英国，当红女演员，却只想远离萧瑟的伦敦，聆听感动于欢笑的话语。他叫保罗，来自美国，曾经的建筑设计师，因为一本书而一炮走红，却无法适应他人追逐的目光，她隐身于巴黎，只能与自己小说中的人物结为挚友。
+                        <p>马克·李维</p>
+                    </div>
+                    <div class="brief">
+                        <p class="left size36 c24">
+                            本
+                            <br>书
+                            <br>介
+                            <br>绍
+                        </p>
+                        <p class="right size20 brief_right">
+                            他叫米亚，来自英国，当红女演员
+                            <br>，却只想远离萧瑟的伦敦，聆听感动于欢笑的话语。
+                            <br> 他叫保罗，来自美国，曾经的建筑设计师，
+                            <br>因为一本书而一炮走红，却无法适应他人追逐的目光
+                            <br>，她隐身于巴黎，只能与自己小说中的人物结为挚友。
+                        </p>
+                        <p class="right c24 size20 mar_top10">她和他，将会发生如何奇妙的故事？</p>
+                    </div>
+                    <p class="c24 size50 lonely">“ &nbsp;&nbsp;没有人会永远孤独，
+                        <br>总有一种爱，能温暖你。”</p>
+                    <p class="rump_img"><img src="imags/书籍/22790777-1_l_1.jpg"><img src="imags/书籍/22790777-1_l_1.jpg"><img src="imags/书籍/22790777-1_l_1.jpg"><img src="imags/书籍/22790777-1_l_1.jpg"></p>
+                </div>
+                <p class="works_abs">
+                    作品简介
+                    <br> 他叫米亚，来自英国，当红女演员，却只想远离萧瑟的伦敦，聆听感动于欢笑的话语。
+                    <br>他叫保罗，来自美国，曾经的建筑设计师，因为一本书而一炮走红，却无法适应他人追逐的目光，她隐身于巴黎，只能与自己小说中的人物结为挚友。
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <!-- 广告 -->
+    <div class="width1200 ad">
+        <img src="imags/广告.jpg">
+    </div>
+    <!-- 页尾 -->
+    <div id="rump">
+        <div class="rump_top">
+            <img src="imags/222_11.png">
+            <img src="imags/222_13.png">
+            <img src="imags/222_15.png">
+            <img src="imags/222_17.png">
+        </div>
+        <div class="rump_center width1200">
+            <dl>
+                <a href="#">
+                    <dd>购物指南</dd>
+                </a>
+                <a href="#">
+                    <dt>购物流程</dt>
+                </a>
+                <a href="#">
+                    <dt>发票制度</dt>
+                </a>
+                <a href="#">
+                    <dt>账户管理</dt>
+                </a>
+                <a href="#">
+                    <dt>会员优惠</dt>
+                </a>
+            </dl>
+            <dl>
+                <a href="#">
+                    <dd>支付方式</dd>
+                </a>
+                <a href="#">
+                    <dt>货到付款</dt>
+                </a>
+                <a href="#">
+                    <dt>网上支付</dt>
+                </a>
+                <a href="#">
+                    <dt>礼品卡支付</dt>
+                </a>
+                <a href="#">
+                    <dt>银行卡支付</dt>
+                </a>
+            </dl>
+            <dl>
+                <a href="#">
+                    <dd>订单服务</dd>
+                </a>
+                <a href="#">
+                    <dt>订单配送查询</dt>
+                </a>
+                <a href="#">
+                    <dt>订单状态说明</dt>
+                </a>
+                <a href="#">
+                    <dt>自动取消订单</dt>
+                </a>
+                <a href="#">
+                    <dt>自动修改订单</dt>
+                </a>
+            </dl>
+            <dl>
+                <a href="#">
+                    <dd>退换货</dd>
+                </a>
+                <a href="#">
+                    <dt>退换货政策</dt>
+                </a>
+                <a href="#">
+                    <dt>自动申请退换货</dt>
+                </a>
+                <a href="#">
+                    <dt>退换货进度查询</dt>
+                </a>
+                <a href="#">
+                    <dt>退款方式和时间</dt>
+                </a>
+            </dl>
+            <dl>
+                <a href="#">
+                    <dd>商家服务</dd>
+                </a>
+                <a href="#">
+                    <dt>商家中心</dt>
+                </a>
+                <a href="#">
+                    <dt>运营服务</dt>
+                </a>
+                <a href="#">
+                    <dt>加入唯品会</dt>
+                </a>
+            </dl>
+            <img src="imags/logo_00.png">
+        </div>
+        <div class="clear"></div>
+        <div class="rump_bottom width1200">
+            <p>
+                <a href="#">公司简介</a>&nbsp;&nbsp;&nbsp;&nbsp;|
+                <a href="#">Investor Relations</a>&nbsp;&nbsp;&nbsp;&nbsp;|
+                <a href="#">网站联盟</a>&nbsp;&nbsp;&nbsp;&nbsp;|
+                <a href="#">乐购招商</a>&nbsp;&nbsp;&nbsp;&nbsp;|
+                <a href="#">机构销售</a>&nbsp;&nbsp;&nbsp;&nbsp;|
+                <a href="#">手机乐购</a>&nbsp;&nbsp;&nbsp;&nbsp;|
+                <a href="#">官方Blog</a>&nbsp;&nbsp;&nbsp;&nbsp;|
+                <a href="#">热词搜索</a>
+            </p>
+            <p class="last">
+                Copyright (C) 乐购网 2004-2016. All Rights Reserved
+            </p>
+        </div>
+    </div>
+    <script type="text/javascript">
+    //获取该画布
+    var canvas = document.getElementById('canvas');
+    //获取上下文
+    var cat = canvas.getContext('2d');
+    //画布大小设置
+    canvas.width = 220;
+    canvas.height = 350;
+    //开始画图
+    cat.moveTo(105, 0);
+    cat.lineTo(0, 230);
+    cat.lineTo(210, 230);
+    cat.closePath();
+    cat.fillStyle = '#c54d28';
+    cat.fill();
+
+    cat.moveTo(105, 230);
+    cat.arc(105, 230, 105, 0 * Math.PI / 180, 180 * Math.PI / 180);
+    cat.closePath();
+    cat.fillStyle = '#c54d28';
+    cat.fill();
+    cat.beginPath();
+    </script>
+</body>
+
+</html>

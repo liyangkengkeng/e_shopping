@@ -1,0 +1,417 @@
+/*今日推荐*/
+
+#recommend .title {
+    color: #ff6701;
+    font-size: 24px;
+    padding: 20px 0px 5px 20px;
+    border-bottom: 5px solid #ff6701;
+    margin-left: 0px;
+}
+
+#recommend .recommend_goods {
+    width: 198px;
+    height: 250px;
+    border: 2px solid #ff6701;
+    border-top: 0px;
+    border-left: 0px;
+    box-sizing: border-box;
+    float: left;
+}
+
+#recommend .margin6 {
+    margin-left: 6px;
+    border-left: 2px solid #ff6701;
+}
+
+#recommend p {
+    margin-left: 5px;
+}
+
+#recommend .size20 {
+    font-size: 20px;
+}
+
+
+/*图书*/
+
+#books {
+    position: relative;
+    margin-top: 45px;
+}
+
+#books .title {
+    font-size: 24px;
+    width: 900px;
+    border-bottom: 5px solid #ff6701;
+    padding-bottom: 5px;
+}
+
+.class {
+    position: absolute;
+    right: 300px;
+    top: 0px;
+}
+
+.pitch_on {
+    background: #ff6700;
+    color: #fff;
+}
+
+.class li {
+    float: left;
+    font-size: 16px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+#bookshelf {
+    width: 240px;
+    height: 435px;
+    float: left;
+    position: relative;
+}
+
+#bookshelf img {
+    width: 240px;
+    height: 286px;
+}
+
+#bookshelf ul {
+    padding-left: 5px;
+    background: #f9f9f9;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0px;
+}
+
+#bookshelf li {
+    float: left;
+    font-size: 14px;
+    width: 78px;
+    margin: 10px 0px;
+}
+
+#bookshelf li a {
+    color: #000;
+}
+
+#books .new {
+    width: 660px;
+    height: 435px;
+    float: left;
+}
+
+#books .new .carousel {
+    float: left;
+    border-left: 2px solid #ccc;
+    height: 216px;
+    width: 326px;
+    overflow: hidden;
+}
+
+#books .new .carousel img {
+    display: inline-block;
+}
+
+#books .new .books_price {
+    width: 153px;
+    height: 176px;
+    padding: 20px 5px;
+    float: left;
+}
+
+#books .new .border_left {
+    border-left: 2px solid #ccc;
+    width: 151px;
+}
+
+#books .new .del {
+    color: #ccc;
+}
+
+#books .new div {
+    border: 2px solid #ccc;
+    border-top: 0px;
+    border-left: 0px;
+}
+
+#books .sell_well {
+    position: absolute;
+    right: 0px;
+    top: 35px;
+    width: 280px;
+    height: 438px;
+    margin-left: 16px;
+    border: 2px solid #ccc;
+}
+
+#books .sell_well .auto {
+    text-align: center;
+    margin: 10px 0px;
+}
+
+#books .sell_well .auto .size24 {
+    font-size: 24px;
+}
+
+#books .ov_h {
+    overflow: hidden;
+}
+
+#books .width20 {
+    width: 30px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    float: left;
+}
+
+#books .windth250 {
+    width: 240px;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 10px;
+    float: left;
+    border-bottom: 1px solid #ccc;
+}
+
+#books .div_one {
+    height: 150px;
+}
+
+#books .windth250 .span_one {
+    display: none;
+}
+
+#books .border0 {
+    border-bottom: 0px;
+}
+
+#books .windth250 img {
+    float: left;
+}
+
+#books .windth250 p {
+    display: none;
+}
+
+#books .windth250 .p_one {
+    display: block;
+}
+
+
+/*服装*/
+
+
+/*户外运动*/
+
+#sports_car {
+    border: 2px solid #ccc;
+    border-top: 0px;
+    border-left: 0px;
+    width: 427px;
+    height: 338px;
+}
+
+
+/*童装*/
+
+#children_car {
+    border: 2px solid #ccc;
+    border-top: 0px;
+    border-left: 0px;
+    width: 427px;
+    height: 338px;
+}
+
+
+/*家居日用*/
+
+#daily .daily_bottom_left {
+    float: left;
+    width: 488px;
+    height: 496px;
+    border: 2px solid #ccc;
+}
+
+#daily .daily_bottom_left img {
+    width: 100%;
+    height: 100%;
+}
+
+#daily .daily_bottom_right {
+    float: left;
+    width: 708px;
+    height: 496px;
+}
+
+#daily .daily_bottom_right img {
+    width: 175px;
+    height: 338px;
+    float: left;
+    border: 2px solid #ccc;
+    border-left: 0px;
+    border-top: 0px;
+}
+
+#daily .daily_bottom_right .right_bottom {
+    height: 158px;
+}
+
+
+/*推广商品*/
+
+#spread {
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+#spread .spread_bottom div {
+    width: 214px;
+    height: 298px;
+    float: left;
+    padding: 26px 32px 0px 32px;
+    box-sizing: border-box;
+    margin: 10px 13px 0px;
+}
+
+#spread .spread_bottom div:hover {
+    background: #f2f2f2;
+}
+
+#spread .spread_bottom .width150 {
+    width: 150px;
+    height: 150px;
+}
+
+#spread .spread_bottom p img {
+    float: left;
+}
+
+
+/*电梯*/
+
+#loutinav {
+    width: 35px;
+    position: fixed;
+    top: 100px;
+    left: 50px;
+    border: 1px solid #ddd;
+    display: none;
+}
+
+#loutinav ul li {
+    width: 35px;
+    height: 32px;
+    border-bottom: 1px dotted #DDDDDD;
+    list-style: none;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    padding: 10px 0;
+    background: #918888;
+    color: #fff;
+}
+
+#loutinav ul li span {
+    width: 35px;
+    height: 32px;
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#loutinav ul li.last {
+    background: #5e4a4a;
+    color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+#loutinav ul li.active span {
+    background: #c00;
+    color: #fff;
+    display: block;
+}
+
+#loutinav ul li:hover span {
+    background: #c00;
+    color: #fff;
+    display: block;
+}
+
+#header {
+    width: 1000px;
+    height: 1000px;
+    background: #cc6633;
+    margin: 0 auto;
+    font-size: 50px;
+    line-height: 1000px;
+    text-align: center;
+    color: #000;
+}
+
+#footer {
+    width: 1000px;
+    height: 400px;
+    background: red;
+    margin: 0 auto;
+    font-size: 50px;
+    line-height: 400px;
+    text-align: center;
+    color: #000;
+}
+
+#loutinav li img {
+    width: 100%;
+    height: 100%;
+}
+
+#loutinav .final {
+    padding: 0px;
+}
+
+
+/*右侧购物车助手*/
+
+.left_aide {
+    position: fixed;
+    right: 10px;
+    top: 300px;
+}
+
+.left_aide img {
+    display: block;
+}
+
+.left_aide .button_img {
+    cursor: pointer;
+}
+
+.left_aide .collar-neck {
+    position: absolute;
+    right: 39px;
+    top: 40px;
+    display: none;
+}
+
+/*搜索框*/
+.search_fixed{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 2px solid #ff6700;
+    box-shadow: 3px 3px 3px rgba(0,0,0,.4);
+    background: #000;
+    z-index: 10000;
+    display: none;
+}
+.search_div{
+    float: left;
+    margin: 5px 0px 0px 580px;
+}
